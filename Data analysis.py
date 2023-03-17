@@ -51,12 +51,6 @@ dfr2= spark.createDataFrame(data,column)
 type(dfr2)
 
 
-# In[8]:
-
-
-dfr2 = spark.read.csv("c:\data\emp_data.csv", header=True, inferSchema=True)
-
-
 # In[9]:
 
 
