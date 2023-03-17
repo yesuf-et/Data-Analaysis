@@ -192,6 +192,14 @@ plt.show()
 
 # In[ ]:
 
+import numpy as np
 
+y = np.array(groupBy('department').agg({'salary':'sum'}))
+plt.pie(y)
+plt.show() 
 
+# In[ ]:
+z = np.array(groupBy('state').agg({'salary':'sum'}))
+plt.pie(z)
+plt.show() 
 
